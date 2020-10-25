@@ -1,0 +1,15 @@
+cars=['bmw','audi','toyota','subaru']
+#按字母顺序排序,永久性修改
+cars.sort()
+print(cars)
+#按字母相反顺序排序,永久性修改
+cars.sort(reverse=True)
+print(cars)
+#临时排序用sorted()方法
+print(sorted(cars))
+print(cars)
+#倒序排列
+cars.reverse()
+print(cars)
+#计算列表长度
+print(len(cars))
